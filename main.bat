@@ -1,1 +1,1 @@
-env\Scripts\activate & python main.py & pause
+python main.py & pause
