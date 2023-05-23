@@ -1,7 +1,7 @@
 # -----------------------------------------------
 # specify your InfluxDB details
 influx_bucket = "HyTime"
-#influx_bucket = "test"
+#influx_bucket = "GENZE"
 token = "9Mb7LIddgV-u7RkmbOhyi_9TGQ2VCy4Zjoo29x5LUIxDMoKA078TpcAA2bFMaNlG3rvdsz6eREdNBPeLvaMo8w=="
 influx_url = "http://localhost:8086"
 org_id = "e596ec1517ee6a33"
@@ -15,6 +15,7 @@ devices = ["hytime/26656490"]
 # specify DBC paths and a list of signals to process ([]: include all signals)
 # optionally include signal prefixes to make CAN ID, PGN and/or BusChannel explicit
 dbc_paths = ["dbc_files/HF831-Data logger.dbc"]
+#dbc_paths = ["dbc_files/HF831-Data logger.dbc"]
 signals = []
 can_id_prefix = False
 pgn_prefix = False
