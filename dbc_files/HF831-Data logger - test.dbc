@@ -1,0 +1,124 @@
+VERSION "HIPBNYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY/4/%%%/4/'%**4YYY///"
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+
+BS_:
+
+BU_:
+
+
+BO_ 1 DataLog1_Temperatures: 8 Vector__XXX
+ SG_ CJTemp : 0|8@1+ (1,-128) [-20|85] "degC" Vector__XXX
+ SG_ TT18_Status : 8|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ TT18_Temp_degC : 10|12@1+ (1,-2048) [-210|1800] "degC" Vector__XXX
+ SG_ TT41_Status : 22|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ TT41_Temp_degC : 24|12@1+ (1,-2048) [-210|1800] "degC" Vector__XXX
+ SG_ TT42_Status : 36|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ TT42_Temp_degC : 38|12@1+ (1,-2048) [-210|1800] "degC" Vector__XXX
+ SG_ TT410_Status : 50|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ TT410_Temp_degC : 52|12@1+ (1,-2048) [-210|1800] "degC" Vector__XXX
+
+BO_ 2 DataLog2_Temperatures: 8 Vector__XXX
+ SG_ CJTemp : 0|8@1+ (1,-128) [-20|85] "degC" Vector__XXX
+ SG_ TL_Status : 8|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ TLTemp : 10|12@1+ (1,-2048) [-210|1800] "degC" Vector__XXX
+ SG_ TT411_Status : 22|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ TT411_Temp_degC : 24|12@1+ (1,-2048) [-210|1800] "degC" Vector__XXX
+ SG_ TT412_Status : 36|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ TT412_Temp_degC : 38|12@1+ (1,-2048) [-210|1800] "degC" Vector__XXX
+ SG_ TT413_Status : 50|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ TT413_Temp_degC : 52|12@1+ (1,-2048) [-210|1800] "degC" Vector__XXX
+
+BO_ 259 DataLogI1_Digital: 4 Vector__XXX
+ SG_ PS35_Press_sw_act : 12|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PS35_Press_sw_low : 14|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PS35_Press_sw_high : 15|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 257 DataLogI1_Analog1: 8 Vector__XXX
+ SG_ PT315_Press_bar : 16|16@1+ (0.000625,0) [0|5] "V" Vector__XXX
+ SG_ VCANLog1_V : 32|16@1+ (0.000625,0) [0|5] "V" Vector__XXX
+
+BO_ 258 DataLogI1_Analog2: 8 Vector__XXX
+ SG_ PT425_Press_bar : 16|16@1+ (0.000625,0) [0|5] "V" Vector__XXX
+ SG_ TT310_Volt_V : 32|16@1+ (0.000625,0) [0|5] "V" Vector__XXX
+ SG_ PT424_Press_bar : 48|16@1+ (0.000625,0) [0|5] "V" Vector__XXX
+
+BO_ 256 DataLogI1_Frequency: 8 Vector__XXX
+ SG_ MFT311_Flow_lpm : 0|16@1+ (0.018,0) [0|1191] "L/min" Vector__XXX
+
+BO_ 515 DataLogI2_Digital: 4 Vector__XXX
+ SG_ PS46_Press_sw_act : 28|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PS46_Press_sw_low : 30|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PS46_Press_sw_high : 31|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 513 DataLogI2_Analog1: 8 Vector__XXX
+ SG_ PT423_Press_bar : 0|16@1+ (0.000625,0) [0|5] "V" Vector__XXX
+ SG_ PT418_Press_bar : 16|16@1+ (0.000625,0) [0|5] "V" Vector__XXX
+ SG_ VCANLog2_V : 32|16@1+ (0.000625,0) [0|5] "V" Vector__XXX
+
+BO_ 514 DataLogI2_Analog2: 8 Vector__XXX
+ SG_ PT419_Press_bar : 0|16@1+ (0.000625,0) [0|5] "V" Vector__XXX
+ SG_ PT417_Press_bar : 16|16@1+ (0.000625,0) [0|5] "V" Vector__XXX
+ SG_ PT420_Press_bar : 32|16@1+ (0.000625,0) [0|5] "V" Vector__XXX
+
+BO_ 512 DataLogI2_Frequency: 8 Vector__XXX
+ SG_ MFT415_Flow_lpm : 48|16@1+ (0.018,0) [0|1191] "L/min" Vector__XXX
+
+BO_ 771 DataLogI3_Digital: 4 Vector__XXX
+ SG_ PS45_Press_sw_act : 16|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PS45_Press_sw_low : 18|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PS45_Press_sw_high : 19|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PS36_Press_sw_act : 20|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PS36_Press_sw_low : 22|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PS36_Press_sw_high : 23|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 769 DataLogI3_Analog1: 8 Vector__XXX
+ SG_ TT44_Volt_V : 16|16@1+ (0.000625,0) [0|5] "V" Vector__XXX
+ SG_ VCANLog3_V : 32|16@1+ (0.000625,0) [0|5] "V" Vector__XXX
+
+BO_ 770 DataLogI3_Analog2: 8 Vector__XXX
+ SG_ TT34_Volt_V : 48|16@1+ (1,0.000625) [0|5] "V" Vector__XXX
+
+BO_ 768 DataLogI3_Frequency: 8 Vector__XXX
+ SG_ MFT416_Flow_lpm : 0|16@1+ (0.018,0) [0|1191] "L/min" Vector__XXX
+ SG_ MFT312_Flow_lpm : 48|16@1+ (0.018,0) [0|1191] "L/min" Vector__XXX
+
+BO_ 1760 Cathode_Inlet_PTRH_sens: 8 PTRHSensor
+ SG_ Press : 0|8@1+ (1,0) [0|250] "kPa" Vector__XXX
+ SG_ DewPoint : 16|8@1+ (1,-40) [-40|210] "degC" Vector__XXX
+ SG_ Temp : 40|8@1+ (1,-40) [-40|210] "degC" Vector__XXX
+ SG_ RelativeHumidity : 8|8@1+ (0.4,0) [0|100] "%" Vector__XXX
+ SG_ SpecificHumidity : 24|16@1+ (0.01,0) [0|642.55] "g/kg" Vector__XXX
+
+CM_ SG_ 1 CJTemp "Cold junction temperature";
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 65535;
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+VAL_ 1 TT18_Status 0 "OK" 1 "Err1" 2 "Err2" 3 "Err3" ;
+VAL_ 1 TT41_Status 0 "OK" 1 "Err1" 2 "Err2" 3 "Err3" ;
+VAL_ 1 TT42_Status 0 "OK" 1 "Err1" 2 "Err2" 3 "Err3" ;
+VAL_ 1 TT410_Status 0 "OK" 1 "Err1" 2 "Err2" 3 "Err3" ;
+VAL_ 259 PS35_Press_sw_act 0 "Unknown" 1 "High" 2 "Llow" ;
+VAL_ 515 PS46_Press_sw_act 0 "Unknown" 1 "High" 2 "Llow" ;
+VAL_ 771 PS45_Press_sw_act 0 "Unknown" 1 "High" 2 "Low" ;
+VAL_ 771 PS36_Press_sw_act 0 "Unknown" 1 "High" 2 "Llow" ;
