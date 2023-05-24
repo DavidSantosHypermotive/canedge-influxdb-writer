@@ -15,7 +15,8 @@ devices = ["hytime/26656490"]
 # specify DBC paths and a list of signals to process ([]: include all signals)
 # optionally include signal prefixes to make CAN ID, PGN and/or BusChannel explicit
 #dbc_paths = ["dbc_files/HF831-Data logger.dbc"]
-dbc_paths = ["dbc_files/HF831-Data logger - test.dbc"]
+#dbc_paths = ["dbc_files/HF831-Data logger - test.dbc"]
+dbc_paths = ["dbc_files/HF831-Data logger_CH1_CH2.dbc"]
 signals = []
 can_id_prefix = False
 pgn_prefix = False
