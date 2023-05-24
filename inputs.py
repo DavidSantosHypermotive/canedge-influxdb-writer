@@ -8,14 +8,11 @@ org_id = "e596ec1517ee6a33"
 
 # -----------------------------------------------
 # specify devices to process from local disk via ["folder/device_id"] or S3 via ["bucket/device_id"]
-#devices = ["LOG/2F6913DB"]
 devices = ["hytime/26656490"]
 #devices = ["genze/DF88D1C6"]
 # -----------------------------------------------
 # specify DBC paths and a list of signals to process ([]: include all signals)
 # optionally include signal prefixes to make CAN ID, PGN and/or BusChannel explicit
-#dbc_paths = ["dbc_files/HF831-Data logger.dbc"]
-#dbc_paths = ["dbc_files/HF831-Data logger - test.dbc"]
 dbc_paths = ["dbc_files/HF831-Data logger_CH1_CH2.dbc"]
 signals = []
 can_id_prefix = False
