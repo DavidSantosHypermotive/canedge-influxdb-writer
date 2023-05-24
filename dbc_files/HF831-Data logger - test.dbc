@@ -22,10 +22,18 @@ NS_ :
 	SIG_GROUP_
 	SIG_VALTYPE_
 	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
 
 BS_:
 
-BU_:
+BU_: FCC PDU PC MainDCDC CompDCDC H2C25 H2C24 CCS314 PTRHSensor
 
 
 BO_ 1 DataLog1_Temperatures: 8 Vector__XXX
@@ -588,7 +596,9 @@ BO_ 1025 FC_Voltages: 8 FCC
  SG_ MinCellVolt : 16|16@1+ (0.00015259,0) [0|0] "" Vector__XXX
 
 
-
+CM_ SG_ 1 CJTemp "Cold junction temperature";
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 65535;
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
 CM_ BU_ FCC "Fuel Cell Controller";
 CM_ BU_ PDU "PDU controller";
 CM_ BU_ PC "External PC for hardware testing";
@@ -642,6 +652,14 @@ CM_ SG_ 1366 Fault_PDU_Busbar2TempHigh "
 Diode-F1 busbar temp 
 ";
 CM_ SG_ 1364 Current_I1 "Stack current measurement";
+VAL_ 1 TT18_Status 0 "OK" 1 "Err1" 2 "Err2" 3 "Err3" ;
+VAL_ 1 TT41_Status 0 "OK" 1 "Err1" 2 "Err2" 3 "Err3" ;
+VAL_ 1 TT42_Status 0 "OK" 1 "Err1" 2 "Err2" 3 "Err3" ;
+VAL_ 1 TT410_Status 0 "OK" 1 "Err1" 2 "Err2" 3 "Err3" ;
+VAL_ 259 PS35_Press_sw_act 0 "Unknown" 1 "High" 2 "Llow" ;
+VAL_ 515 PS46_Press_sw_act 0 "Unknown" 1 "High" 2 "Llow" ;
+VAL_ 771 PS45_Press_sw_act 0 "Unknown" 1 "High" 2 "Low" ;
+VAL_ 771 PS36_Press_sw_act 0 "Unknown" 1 "High" 2 "Llow" ;
 VAL_ 2551752612 MStatus 13 "Discharge state" 12 "Fault status  in normal state" 6 "Fault status in waitting state" 4 "Waitting state" 2 "Normal state" ;
 VAL_ 2551752612 FaultLevel 2 "Level II  fault" 1 "Level I  fault" 0 "No fault" ;
 VAL_ 2551752612 FaultCode 28 "Input contactor error" 23 "HwWDO" 22 "hardware output voltage high" 21 "hardware input voltage high" 20 "igbt error" 19 "hardware current high" 18 "HwAdIpv error" 17 "eeprom error" 16 "output voltage unbalance" 15 "Inductor current high" 30 "active discharge error" 29 "pre-charge error" 13 "de-rate warning" 12 "current sample lost" 4 "output voltage low" 1 "input voltage low" 11 "temperature sample lost" 10 "auxiliary power error" 9 "hardware report error" 8 "CPU temperature high" 7 "communication error" 6 "IGBT temperature high
@@ -683,15 +701,3 @@ VAL_ 1360 Cont_C3_State 0 "OPEN" 1 "CLOSED" ;
 VAL_ 1360 Cont_C6_State 0 "OPEN" 1 "CLOSED" ;
 VAL_ 1366 PDU_FaultCause 0 "PDU F1 FUSE ACT" 1 "PDU F2 FUSE ACT" 2 "PDU F3 FUSE ACT" 3 "PDU C1 CONT OPEN" 4 "PDU C1 CONT SHORT" 5 "PDU C3 CONT OPEN" 6 "PDU C3 CONT SHORT" 7 "PDU C4 CONT OPEN" 8 "PDU PRECHG FAULT" 9 "PDU PCB OVER TEMP" 10 "PDU HVIL OPEN" 11 "PDU HVIL SHORT" 12 "PDU 12V VOLT LOW" 13 "COLDPLATE OVER TEMP" 14 "BUSBAR1 OVER TEMP" 15 "BUSBAR2 OVER TEMP" 16 "BUSBAR3 OVER TEMP" ;
 VAL_ 1366 PDU_WarnCause 0 "PCB OVER TEMP" 1 "12V LOW VOLT" 2 "ISOLATION IMBALANCE" 3 "COLDPLATE OVER TEMP" 4 "BUSBAR1 OVER TEMP" 5 "BUSBAR2 OVER TEMP" 6 "BUSBAR3 OVER TEMP" ;
-
-CM_ SG_ 1 CJTemp "Cold junction temperature";
-BA_DEF_ BO_  "GenMsgCycleTime" INT 0 65535;
-BA_DEF_DEF_  "GenMsgCycleTime" 0;
-VAL_ 1 TT18_Status 0 "OK" 1 "Err1" 2 "Err2" 3 "Err3" ;
-VAL_ 1 TT41_Status 0 "OK" 1 "Err1" 2 "Err2" 3 "Err3" ;
-VAL_ 1 TT42_Status 0 "OK" 1 "Err1" 2 "Err2" 3 "Err3" ;
-VAL_ 1 TT410_Status 0 "OK" 1 "Err1" 2 "Err2" 3 "Err3" ;
-VAL_ 259 PS35_Press_sw_act 0 "Unknown" 1 "High" 2 "Llow" ;
-VAL_ 515 PS46_Press_sw_act 0 "Unknown" 1 "High" 2 "Llow" ;
-VAL_ 771 PS45_Press_sw_act 0 "Unknown" 1 "High" 2 "Low" ;
-VAL_ 771 PS36_Press_sw_act 0 "Unknown" 1 "High" 2 "Llow" ;
