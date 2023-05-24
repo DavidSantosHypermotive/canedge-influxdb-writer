@@ -22,7 +22,16 @@ NS_ :
 	SIG_GROUP_
 	SIG_VALTYPE_
 	SIGTYPE_VALTYPE_
-
+	CM_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+	
 BS_:
 
 BU_:
@@ -589,6 +598,50 @@ BO_ 1025 FC_Voltages: 8 Vector__XXX
 
 
 CM_ SG_ 1 CJTemp "Cold junction temperature";
+CM_ BU_ FCC "Fuel Cell Controller";
+CM_ BU_ PDU "PDU controller";
+CM_ BU_ PC "External PC for hardware testing";
+CM_ SG_ 2365543079 VinMax "max input(low volt side) voltage";
+CM_ SG_ 2365543079 IinMax "max input(low volt side) current";
+CM_ SG_ 2551818165 TargetVal "voltmode£ºoffset = 0 curmode£ºoffset = -1500";
+CM_ SG_ 2365542823 TargetVin "The input voltage(Low side) reference value";
+CM_ BO_ 832 "H2C24 - Anode Inlet";
+CM_ BO_ 800 "H2C25 - Exhaust";
+CM_ SG_ 1027 Warn_FCS_StackCoolPressHigh "Place holder - has been deleted";
+CM_ SG_ 1027 Warn_FCS_StackCoolPressLow "Place holder - has been deleted";
+CM_ SG_ 1028 Fault_FCS_StackCoolPressHigh "Place holder - has been deleted";
+CM_ SG_ 1028 Fault_FCS_StackCoolPressLow "Place holder - has been deleted";
+CM_ SG_ 1028 Fault_FCS_CoolHeatInternalfault "Place holder";
+CM_ SG_ 1028 Fault_FCS_CoolHeatExternalfault "Place holder";
+CM_ SG_ 1028 Fault_FCS_CT41LevelLow "";
+CM_ SG_ 1028 Fault_FCS_CT42LevelLow "";
+CM_ SG_ 1029 PCB_Temperature_uC "";
+CM_ SG_ 1029 TT15TempSensor_uC "";
+CM_ SG_ 1029 TT26TempSensor_uC "";
+CM_ SG_ 1029 TT16TempSensor_uC "";
+CM_ SG_ 1031 PT17CathodeExhSens_uC "HEX";
+CM_ SG_ 1032 LSLevelSensor_uC "LevelSensor_29";
+CM_ SG_ 1361 CoolantTempSensor4 "Cold Plate temp sensor";
+CM_ SG_ 1361 CoolantTempSensor1 "MaindDCDC-F2-F3 busbar temp";
+CM_ SG_ 1361 CoolantTempSensor2 "Diode-F1 busbar temp";
+CM_ SG_ 1361 CoolantTempSensor3 "FC-Current sensor busbar temp ";
+CM_ SG_ 1366 Fault_PDU_ColdplateOverTemp "
+Cold Plate temp sensor ";
+CM_ SG_ 1366 Fault_PDU_Busbar1TempHigh "
+MaindDCDC-F2-F3 busbar temp ";
+CM_ SG_ 1366 Warn_PDU_ColdplateTempHigh "
+Cold Plate temp sensor ";
+CM_ SG_ 1366 Warn_PDU_Busbar2TempHigh "
+Diode-F1 busbar temp ";
+CM_ SG_ 1366 Warn_PDU_Busbar3TempHigh "
+FC-Current sensor busbar temp ";
+CM_ SG_ 1366 Warn_PDU_Busbar1TempHigh "
+MaindDCDC-F2-F3 busbar temp ";
+CM_ SG_ 1366 Fault_PDU_Busbar3TempHigh "
+FC-Current sensor busbar temp ";
+CM_ SG_ 1366 Fault_PDU_Busbar2TempHigh "
+Diode-F1 busbar temp ";
+CM_ SG_ 1364 Current_I1 "Stack current measurement";
 BA_DEF_ BO_  "GenMsgCycleTime" INT 0 65535;
 BA_DEF_DEF_  "GenMsgCycleTime" 0;
 VAL_ 1 TT18_Status 0 "OK" 1 "Err1" 2 "Err2" 3 "Err3" ;
@@ -599,3 +652,42 @@ VAL_ 259 PS35_Press_sw_act 0 "Unknown" 1 "High" 2 "Low" ;
 VAL_ 515 PS46_Press_sw_act 0 "Unknown" 1 "High" 2 "Low" ;
 VAL_ 771 PS45_Press_sw_act 0 "Unknown" 1 "High" 2 "Low" ;
 VAL_ 771 PS36_Press_sw_act 0 "Unknown" 1 "High" 2 "Low" ;
+VAL_ 2551752612 MStatus 13 "Discharge state" 12 "Fault status  in normal state" 6 "Fault status in waitting state" 4 "Waitting state" 2 "Normal state" ;
+VAL_ 2551752612 FaultLevel 2 "Level II  fault" 1 "Level I  fault" 0 "No fault" ;
+VAL_ 2551752612 FaultCode 28 "Input contactor error" 23 "HwWDO" 22 "hardware output voltage high" 21 "hardware input voltage high" 20 "igbt error" 19 "hardware current high" 18 "HwAdIpv error" 17 "eeprom error" 16 "output voltage unbalance" 15 "Inductor current high" 30 "active discharge error" 29 "pre-charge error" 13 "de-rate warning" 12 "current sample lost" 4 "output voltage low" 1 "input voltage low" 11 "temperature sample lost" 10 "auxiliary power error" 9 "hardware report error" 8 "CPU temperature high" 7 "communication error" 6 "IGBT temperature high" 5 "output voltage high" 3 "output current high" 2 "input voltage high" 0 "input current high" ;
+VAL_ 2551818148 WorkMode 10 "Low Volt On" 15 "Reset Fault" 12 "active discharge" 11 "On" 5 "Off" ;
+VAL_ 2551818148 ContrlMode 3 "Input Voltage Mode" 2 "Output Current Mode" 1 "Output Voltage Mode" 0 "Input Current Mode" ;
+VAL_ 2365522343 WorkMode 10 "Low Volt On" 15 "Reset Fault" 12 "Discharge" 11 "On" 5 "Off" ;
+VAL_ 2365522343 ContrlMode 3 "Input Voltage Mode" 2 "OutPut Current  Mode" 1 "OutPut Voltage Mode" 0 "Input Current Mode" ;
+VAL_ 2551752629 MStatus 12 "Fault status  in normal state" 6 "Fault status in waitting state" 4 "Waitting state" 2 "Normal state" ;
+VAL_ 2551752629 FaultLevel 2 "Level II  fault" 1 "Level I  fault" 0 "No fault" ;
+VAL_ 2551752629 FaultCode 29 "pre-charge error" 28 "Input contactor error" 23 "other hardware error" 22 "hardware output voltage high" 21 "hardware input voltage high" 20 "power module  error" 19 "hardware current high" 18 "AD sample  error" 17 "eeprom W&R error" 4 "output voltage low" 1 "input voltage low" 10 "other error " 9 "hardware error" 8 "power module temperature high" 7 "communication error" 6 "ambient temperature high" 5 "output voltage high" 3 "output current high" 2 "input voltage high" 0 "input current high" ;
+VAL_ 2551818165 WorkMode 11 "On" 5 "Off" ;
+VAL_ 2551818165 ContrlMode 1 "Voltage Mode" 0 "Current Mode" ;
+VAL_ 2365542823 WorkMode 15 "Reset Fault" 11 "On" 5 "Off" ;
+VAL_ 2365542823 ContrlMode 1 "Voltage Mode" 0 "Current Mode" ;
+VAL_ 1024 SM_MAIN 0 "OFF" 1 "FCS_IDLE" 2 "FCS_SIP" 3 "FCS_RI" 4 "FCS_RR" 5 "FCS_SHUTDOWN" 6 "FCS_OFF" 7 "FCS_DERATE" 8 "FCS_FAULT" 9 "FCS_ESTOP" ;
+VAL_ 1024 SM_SHUTDOWN 0 "OFF" 1 "FCS_SHUTDOWN_IDLE" 2 "FCS_SHUTDOWN_HV_DERATE" 3 "FCS_SHUTDOWN_CATHODE_BYPASS" 4 "FCS_SHUTDOWN_HV_OFF" 5 "FCS_SHUTDOWN_DCDCs_OFF" 6 "FCS_PDU_SHUTDOWN" 7 "FCS_SHUTDOWN_COMPLETE" ;
+VAL_ 1024 SM_CS 0 "OFF" 1 "FCS_CS_IDLE" 2 "FCS_CS_ENABLE" 3 "FCS_CS_DISABLE" 4 "FCS_CS_COOLDOWN" 5 "FCS_CS_OFF" 6 "FCS_CS_FAULT" ;
+VAL_ 1024 SM_RR 0 "OFF" 1 "FCS_RR_IDLE" 2 "FCS_RR_ENABLE" 3 "FCS_RR_DISABLE" 4 "FCS_RR_FAULT" ;
+VAL_ 1024 SM_DRAIN 0 "OFF" 1 "FCS_DRAIN_IDLE" 2 "FCS_DRAIN_WAIT_1" 3 "FCS_DRAIN_VLV_OPEN" 4 "FCS_DRAIN_CPMP_ON" 5 "FCS_DRAIN_WAIT_2" 6 "FCS_DRAIN_OFF" ;
+VAL_ 1024 SM_PURGE 0 "OFF" 1 "FCS_PURGE_IDLE" 2 "FCS_PURGE_SU" 3 "FCS_PURGE_WAIT" 4 "FCS_PURGE_OFF" 5 "FCS_PURGE_RH%" 6 "FCS_PURGE_N2" 7 "FCS_PURGE_PRESS" ;
+VAL_ 1024 SM_RI 0 "OFF" 1 "FCS_RI_IDLE" 2 "FCS_RI_ENABLE" 3 "FCS_RI_MainDCDC_ENABLE" 4 "FCS_RI_MainDCDC_Imin" 5 "FCS_PDU_RI" 6 "FCS_RI_COMPLETE" 7 "FCS_RI_FAULT" ;
+VAL_ 1024 SM_HU 0 "OFF" 1 "FCS_HU_IDLE" 2 "FCS_HU_ENABLE" 3 "FCS_HU_OFF" 4 "FCS_HU_FAULT" ;
+VAL_ 1024 SM_SIP 0 "OFF" 1 "FCS_SIP_IDLE" 2 "FCS_PDU_SIP_ENABLE" 3 "FCS_SIP_CompDCDC_ENABLE" 4 "FCS_HU" 5 "FCS_CS_ENABLE" 6 "FCS_SIP_Cathode_BYPASS_ENABLE" 7 "FCS_SIP_MIN_OP_STATE_ENABLE" 8 "FCS_SIP_MIN_OP_STATE" 9 "FCS_PURGE_DRAIN_ENABLE" 10 "FCS_SIP_COMPLETE" 11 "FCS_SIP_FAULT" ;
+VAL_ 1024 FCS_WarnCause 0 "No Warning" 1 "Warn_FCS_StackVoltageHigh" 2 "Warn_FCS_StackVoltageLow" 3 "Warn_FCS_StackTemperatureHigh" 4 "Warn_FCS_StackTemperatureLow" 5 "Warn_FCS_CT31LevelHigh" 6 "Warn_FCS_HT_SkinTank_OutTempHigh" 7 "Warn_FCS_HT_SkinTank_OutTempLow" 8 "Warn_FCS_StackTempInletHigh" 9 "Warn_FCS_StackTempInletLow" 10 "Warn_FCS_StackCoolPressHigh" 11 "Warn_FCS_StackCoolPressLow" 12 "Warn_FCS_StackCoolH2ConcHigh" 13 "Warn_FCS_StackCoolCondHigh" 14 "Warn_FCS_LT_SkinTank_OutTempHigh" 15 "Warn_FCS_LT_SkinTank_OutTempLow" 16 "Warn_FCS_BP_InTempHigh" 17 "Warn_FCS_BP_InTempLow" 18 "Warn_FCS_PDUOutTempHigh" 19 "Warn_FCS_PDUOutTempLow" 20 "Warn_FCS_CACOutTempHigh" 21 "Warn_FCS_CACOutTempLow" 22 "Warn_FCS_AnodeInTempHigh" 23 "Warn_FCS_AnodeInTempLow" 24 "Warn_FCS_AnodeInRHHigh" 25 "Warn_FCS_AnodeInRHLow" 26 "Warn_FCS_AnodeInPressHigh" 27 "Warn_FCS_AnodeInPressLow" 28 "Warn_FCS_AnodeOutTempHigh" 29 "Warn_FCS_AnodeOutTempLow" 30 "Warn_FCS_AnodeOutPressHigh" 31 "Warn_FCS_AnodeOutPressLow" 32 "Warn_FCS_CathodeCompInTempHigh" 33 "Warn_FCS_CathodeCompInTempLow" 34 "Warn_FCS_CathodeCACOutTempHigh" 35 "Warn_FCS_CathodeCACOutTempLow" 36 "Warn_FCS_CathodeInTempHigh" 37 "Warn_FCS_CathodeInTempLow" 38 "Warn_FCS_CathodeInRHHigh" 39 "Warn_FCS_CathodeInRHLow" 40 "Warn_FCS_CathodeInPressHigh" 41 "Warn_FCS_CathodeInPressLow" 42 "Warn_FCS_ExhaustTempHigh" 43 "Warn_FCS_ExhaustTempLow" 44 "Warn_FCS_ExhaustRHHigh" 45 "Warn_FCS_ExhaustRHLow" 46 "Warn_FCS_ExhaustPressHigh" 47 "Warn_FCS_ExhaustPressLow" 48 "Warn_FCS_ExhaustH2ConcHigh" 49 "Warn_FCS_CellVoltageLow" 50 "Warn_FCS_StackDeltaPressHigh" 51 "Warn_FCS_Z1H2ConcHigh" 52 "Warn_FCS_Z2H2ConcHigh" 53 "Warn_FCS_StackTempOutletHigh" 54 "Warn_FCS_StackTempOutletLow" 55 "Warn_FCS_CathodeExPressHigh" ;
+VAL_ 1024 FCS_FaultCause 0 "No Fault" 1 "Fault_FCS_StackVoltageHigh" 2 "Fault_FCS_StackVoltageLow" 3 "Fault_FCS_StackTemperatureHigh" 4 "Fault_FCS_StackTemperatureLow" 5 "Fault_FCS_CT32LevelLow" 6 "Fault_FCS_CT31LevelLow" 7 "Fault_FCS_HTSkinTank_OutTempHigh" 8 "Fault_FCS_HTSkinTank_OutTempLow" 9 "Fault_FCS_StackTempInletHigh" 10 "Fault_FCS_StackTempInletLow" 11 "Fault_FCS_StackCoolPressHigh" 12 "Fault_FCS_StackCoolPressLow" 13 "Fault_FCS_StackCoolH2ConcHigh" 14 "Fault_FCS_StackCoolCondHigh" 15 "Fault_FCS_CoolHeatInternalfault" 16 "Fault_FCS_CoolHeatExternalfault" 17 "Fault_FCS_LT_SkinTankOutTempHigh" 18 "Fault_FCS_LT_SkinTankOutTempLow" 19 "Fault_FCS_BP_InTempHigh" 20 "Fault_FCS_BP_InTempLow" 21 "Fault_FCS_PDUOutTempHigh" 22 "Fault_FCS_PDUOutTempLow" 23 "Fault_FCS_CACOutTempHigh" 24 "Fault_FCS_CACOutTempLow" 25 "Fault_FCS_CT41LevelLow" 26 "Fault_FCS_CT42LevelLow" 27 "Fault_FCS_AnodeInTempHigh" 28 "Fault_FCS_AnodeInTempLow" 29 "Fault_FCS_AnodeInRHHigh" 30 "Fault_FCS_AnodeInRHLow" 31 "Fault_FCS_AnodeInPressHigh" 32 "Fault_FCS_AnodeInPressLow" 33 "Fault_FCS_AnodeOutTempHigh" 34 "Fault_FCS_AnodeOutTempLow" 35 "Fault_FCS_AnodeOutPressHigh" 36 "Fault_FCS_AnodeOutPressLow" 37 "Fault_FCS_CathodeCompInTempHigh" 38 "Fault_FCS_CathodeCompInTempLow" 39 "Fault_FCS_CathodeCACOutTempHigh" 40 "Fault_FCS_CathodeCACOutTempLow" 41 "Fault_FCS_CathodeInTempHigh" 42 "Fault_FCS_CathodeInTempLow" 43 "Fault_FCS_CathodeInRHHigh" 44 "Fault_FCS_CathodeInRHLow" 45 "Fault_FCS_CathodeInPressHigh" 46 "Fault_FCS_CathodeInPressLow" 47 "Fault_FCS_ExhaustTempHigh" 48 "Fault_FCS_ExhaustTempLow" 49 "Fault_FCS_ExhaustRHHigh" 50 "Fault_FCS_ExhaustRHLow" 51 "Fault_FCS_ExhaustPressHigh" 52 "Fault_FCS_ExhaustPressLow" 53 "Fault_FCS_ExhaustH2ConcHigh" 54 "Fault_FCS_CellVoltageLow" 55 "Fault_FCS_StackDeltaPressHigh" 56 "Fault_FCS_Z1H2ConcHigh" 57 "Fault_FCS_Z2H2ConcHigh" 58 "Fault_FCS_StackTempOutletHigh" 59 "Fault_FCS_StackTempOutletLow" 60 "Fault_FCS_CathodeExPressHigh" 61 "Fault_DCDCMain" 62 "Fault_DCDCComp" 64 "Fault_INVComp" ;
+VAL_ 1027 FCS_SysWarnStatus 0 "FALSE" 1 "TRUE" ;
+VAL_ 1028 FCS_SysFaultStatus 0 "FALSE" 1 "TRUE" ;
+VAL_ 1360 SM_MAIN 0 "OFF" 1 "PDU_IDLE" 2 "PDU_SIP" 3 "PDU_RI" 4 "PDU_SHUTDOWN" 5 "PDU_OFF" 6 "PDU_FAULT" 7 "PDU_ESTOP" ;
+VAL_ 1360 SM_SIP 0 "OFF" 1 "PDU_SIP_IDLE" 2 "PDU_SIP_HVIL_CHCK13" 3 "PDU_SIP_HVIL_CHCK23" 4 "PDU_SIP_HVIL_CHCK33" 5 "PDU_SIP_CLOSE_C6" 6 "PDU_SIP_CLOSE_C5" 7 "PDU_SIP_CLOSE_C5_CHCK" 8 "PDU_SIP_CLOSE_C4" 9 "PDU_SIP_COMPLETE" 10 "PDU_SIP_FAULT" ;
+VAL_ 1360 SM_RUN_IDLE 0 "OFF" 1 "PDU_RI_IDLE" 2 "PDU_RI_IMD_CHCK" 3 "PDU_RI_OCV_CHCK" 4 "PDU_RI_CLOSE_C2" 5 "PDU_RI_CLOSE_C3" 6 "PDU_RI_COMPLETE" 7 "PDU_RI_FAULT" ;
+VAL_ 1360 SM_SHUTDOWN 0 "OFF" 1 "PDU_SHTDWN_IDLE" 2 "PDU_SHTDWN_OPEN_C2" 3 "PDU_SHTDWN_DUMP_LOAD_ON" 4 "PDU_SHTDWN_CUMP_LOAD_OFF" 5 "PDU_SHTDWN_OPEN_C3" 6 "PDU_SHTDWN_OPEN_C4" 7 "PDU_SHTDWN_OPEN_C6" 8 "PDU_SHTDWN_COMPLETE" ;
+VAL_ 1360 Cont_C4_State 0 "OPEN" 1 "CLOSED" ;
+VAL_ 1360 Cont_C5_State 0 "OPEN" 1 "CLOSED" ;
+VAL_ 1360 Cont_C1_State 0 "OPEN" 1 "CLOSE" ;
+VAL_ 1360 Cont_C2_State 0 "OPEN" 1 "CLOSED" ;
+VAL_ 1360 Cont_C3_State 0 "OPEN" 1 "CLOSED" ;
+VAL_ 1360 Cont_C6_State 0 "OPEN" 1 "CLOSED" ;
+VAL_ 1366 PDU_FaultCause 0 "PDU F1 FUSE ACT" 1 "PDU F2 FUSE ACT" 2 "PDU F3 FUSE ACT" 3 "PDU C1 CONT OPEN" 4 "PDU C1 CONT SHORT" 5 "PDU C3 CONT OPEN" 6 "PDU C3 CONT SHORT" 7 "PDU C4 CONT OPEN" 8 "PDU PRECHG FAULT" 9 "PDU PCB OVER TEMP" 10 "PDU HVIL OPEN" 11 "PDU HVIL SHORT" 12 "PDU 12V VOLT LOW" 13 "COLDPLATE OVER TEMP" 14 "BUSBAR1 OVER TEMP" 15 "BUSBAR2 OVER TEMP" 16 "BUSBAR3 OVER TEMP" ;
+VAL_ 1366 PDU_WarnCause 0 "PCB OVER TEMP" 1 "12V LOW VOLT" 2 "ISOLATION IMBALANCE" 3 "COLDPLATE OVER TEMP" 4 "BUSBAR1 OVER TEMP" 5 "BUSBAR2 OVER TEMP" 6 "BUSBAR3 OVER TEMP" ;
