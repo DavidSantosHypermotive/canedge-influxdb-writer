@@ -13,7 +13,8 @@ devices = ["hytime/26656490"]
 # -----------------------------------------------
 # specify DBC paths and a list of signals to process ([]: include all signals)
 # optionally include signal prefixes to make CAN ID, PGN and/or BusChannel explicit
-dbc_paths = ["dbc_files/HF831-Data logger_CH1_CH2.dbc"]
+dbc_paths = ["dbc_files/HF831-102-A-Dataloggers_CH1_CH2_database.dbc"]
+# dbc_paths = ["dbc_files/HF831-Data logger_CH1_CH2.dbc"]
 signals = []
 can_id_prefix = False
 pgn_prefix = False
@@ -27,7 +28,7 @@ res = "5S"
 s3 = True
 key = "HYPER"
 secret = "MOTIVE2023"
-endpoint = "http://192.168.241.189:9000"  # e.g. http://s3.us-east-1.amazonaws.com or http://192.168.0.1:9000
+endpoint = "http://192.168.95.189:9000"  # e.g. http://s3.us-east-1.amazonaws.com or http://192.168.0.1:9000
 region = "us-east-1" # only relevant if you are using more recent builds of MinIO S3 as the backend
 # cert = "path/to/cert.crt"  # if MinIO + TLS, add path to cert and update utils.py/setup_fs to verify
 

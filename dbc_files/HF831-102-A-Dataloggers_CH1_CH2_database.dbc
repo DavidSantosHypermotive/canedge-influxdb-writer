@@ -1,0 +1,685 @@
+VERSION "HIPBNYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY/4/%%%/4/'%**4YYY///"
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+
+BS_:
+
+BU_:
+
+
+BO_ 1 DataLog1_Temperatures: 8 Vector__XXX
+ SG_ CJTemp : 0|8@1+ (1,-128) [-20|85] "degC" Vector__XXX
+ SG_ TT18_Status : 8|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ TT18_Temp_degC : 10|12@1+ (1,-2048) [-210|1800] "degC" Vector__XXX
+ SG_ TT41_Status : 22|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ TT41_Temp_degC : 24|12@1+ (1,-2048) [-210|1800] "degC" Vector__XXX
+ SG_ TT42_Status : 36|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ TT42_Temp_degC : 38|12@1+ (1,-2048) [-210|1800] "degC" Vector__XXX
+ SG_ TT410_Status : 50|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ TT410_Temp_degC : 52|12@1+ (1,-2048) [-210|1800] "degC" Vector__XXX
+
+BO_ 2 DataLog2_Temperatures: 8 Vector__XXX
+ SG_ CJTemp : 0|8@1+ (1,-128) [-20|85] "degC" Vector__XXX
+ SG_ TL_Status : 8|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ TLTemp : 10|12@1+ (1,-2048) [-210|1800] "degC" Vector__XXX
+ SG_ TT411_Status : 22|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ TT411_Temp_degC : 24|12@1+ (1,-2048) [-210|1800] "degC" Vector__XXX
+ SG_ TT412_Status : 36|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ TT412_Temp_degC : 38|12@1+ (1,-2048) [-210|1800] "degC" Vector__XXX
+ SG_ TT413_Status : 50|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ TT413_Temp_degC : 52|12@1+ (1,-2048) [-210|1800] "degC" Vector__XXX
+
+BO_ 259 DataLogI1_Digital: 4 Vector__XXX
+ SG_ PS35_Press_sw_act : 12|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PS35_Press_sw_low : 14|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PS35_Press_sw_high : 15|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 257 DataLogI1_Analog1: 8 Vector__XXX
+ SG_ PT315_Press_bar : 16|16@1+ (0.000625,0) [0|5] "V" Vector__XXX
+ SG_ VCANLog1_V : 32|16@1+ (0.000625,0) [0|5] "V" Vector__XXX
+
+BO_ 258 DataLogI1_Analog2: 8 Vector__XXX
+ SG_ PT425_Press_bar : 16|16@1+ (0.000625,0) [0|5] "V" Vector__XXX
+ SG_ TT310_Volt_V : 32|16@1+ (0.000625,0) [0|5] "V" Vector__XXX
+ SG_ PT424_Press_bar : 48|16@1+ (0.000625,0) [0|5] "V" Vector__XXX
+
+BO_ 256 DataLogI1_Frequency: 8 Vector__XXX
+ SG_ MFT311_Flow_lpm : 0|16@1+ (0.018,0) [0|1191] "L/min" Vector__XXX
+
+BO_ 515 DataLogI2_Digital: 4 Vector__XXX
+ SG_ PS46_Press_sw_act : 28|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PS46_Press_sw_low : 30|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PS46_Press_sw_high : 31|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 513 DataLogI2_Analog1: 8 Vector__XXX
+ SG_ PT423_Press_bar : 0|16@1+ (0.000625,0) [0|5] "V" Vector__XXX
+ SG_ PT418_Press_bar : 16|16@1+ (0.000625,0) [0|5] "V" Vector__XXX
+ SG_ VCANLog2_V : 32|16@1+ (0.000625,0) [0|5] "V" Vector__XXX
+
+BO_ 514 DataLogI2_Analog2: 8 Vector__XXX
+ SG_ PT419_Press_bar : 0|16@1+ (0.000625,0) [0|5] "V" Vector__XXX
+ SG_ PT417_Press_bar : 16|16@1+ (0.000625,0) [0|5] "V" Vector__XXX
+ SG_ PT420_Press_bar : 32|16@1+ (0.000625,0) [0|5] "V" Vector__XXX
+
+BO_ 512 DataLogI2_Frequency: 8 Vector__XXX
+ SG_ MFT415_Flow_lpm : 48|16@1+ (0.018,0) [0|1191] "L/min" Vector__XXX
+
+BO_ 771 DataLogI3_Digital: 4 Vector__XXX
+ SG_ PS45_Press_sw_act : 16|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PS45_Press_sw_low : 18|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PS45_Press_sw_high : 19|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PS36_Press_sw_act : 20|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PS36_Press_sw_low : 22|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PS36_Press_sw_high : 23|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 769 DataLogI3_Analog1: 8 Vector__XXX
+ SG_ TT44_Volt_V : 16|16@1+ (0.000625,0) [0|5] "V" Vector__XXX
+ SG_ VCANLog3_V : 32|16@1+ (0.000625,0) [0|5] "V" Vector__XXX
+
+BO_ 770 DataLogI3_Analog2: 8 Vector__XXX
+ SG_ TT34_Volt_V : 48|16@1+ (0.000625,0) [0|5] "V" Vector__XXX
+
+BO_ 768 DataLogI3_Frequency: 8 Vector__XXX
+ SG_ MFT416_Flow_lpm : 0|16@1+ (0.018,0) [0|1191] "L/min" Vector__XXX
+ SG_ MFT312_Flow_lpm : 48|16@1+ (0.018,0) [0|1191] "L/min" Vector__XXX
+
+BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
+ SG_ NewSignal_0001 : 16|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 2552276900 DCDC_COMP_DCDC_EIS_FCU: 8 Vector__XXX
+ SG_ SetEsiCur : 48|16@1+ (0.1,0) [0|50] "A" Vector__XXX
+ SG_ SetEsiFreq : 32|16@1+ (1,0) [0|2000] "Hz" Vector__XXX
+ SG_ ImpedanceImaginaryPart : 16|16@1+ (0.001,-1) [-1|1] "" Vector__XXX
+ SG_ ImpedanceRealPart : 0|16@1+ (0.001,0) [0|1] "" Vector__XXX
+
+BO_ 2365526183 DCDC_COMP_FCU_DCDC_EIS: 8 Vector__XXX
+ SG_ EisCur : 24|16@1+ (0.1,0) [0|50] "A" Vector__XXX
+ SG_ EsiFreq : 8|16@1+ (1,0) [100|2000] "Hz" Vector__XXX
+ SG_ EisEnable : 0|8@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 2552014756 DCDC_COMP_DCDC_FCU_5: 6 Vector__XXX
+ SG_ PAccTotalPower : 0|20@1+ (1,0) [0|1000000] "KWH" Vector__XXX
+ SG_ PAccCurrentPower : 32|16@1+ (0.1,0) [0|400] "KWH" Vector__XXX
+
+BO_ 2551752612 DCDC_COMP_DCDC_FCU_1: 8 Vector__XXX
+ SG_ MStatus : 32|8@1+ (1,0) [0|15] "" Vector__XXX
+ SG_ FaultLevel : 46|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Life : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FaultCode : 40|6@1+ (1,0) [0|63] "" Vector__XXX
+ SG_ Vin : 0|12@1+ (1,0) [0|1000] "V" Vector__XXX
+ SG_ Iin : 16|16@1+ (0.1,0) [0|1000] "A" Vector__XXX
+ SG_ DCDCTemp : 48|8@1+ (1,-40) [-40|200] "¡æ" Vector__XXX
+
+BO_ 2551818148 DCDC_COMP_DCDC_FCU_2: 8 Vector__XXX
+ SG_ InputRelayState : 58|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OutputRelayState : 56|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ WorkMode : 32|4@1+ (1,0) [0|15] "" Vector__XXX
+ SG_ Vout : 0|12@1+ (1,0) [0|1000] "V" Vector__XXX
+ SG_ TargetVal : 40|16@1+ (0.1,0) [0|1000] "V or A" Vector__XXX
+ SG_ Iout : 16|16@1+ (0.1,0) [0|1000] "A" Vector__XXX
+ SG_ ContrlMode : 36|4@1+ (1,0) [0|15] "" Vector__XXX
+
+BO_ 2365522343 DCDC_COMP_FCU_DCDC_0: 8 Vector__XXX
+ SG_ LRelay : 51|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ HRelay : 50|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ DO2 : 49|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ DO1 : 48|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Life : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ WorkMode : 40|4@1+ (1,0) [0|15] "" Vector__XXX
+ SG_ ContrlMode : 32|4@1+ (1,0) [0|15] "" Vector__XXX
+ SG_ TargetVout : 16|16@1+ (0.1,0) [0|1000] "V" Vector__XXX
+ SG_ TargetIin : 0|16@1+ (0.1,0) [0|1000] "A" Vector__XXX
+
+BO_ 2365543079 DCDC_MAIN_FCU_DCDC_1: 8 Vector__XXX
+ SG_ Life : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ VinMax : 16|16@1+ (0.1,0) [0|1000] "V" Vector__XXX
+ SG_ IinMax : 0|16@1+ (0.1,0) [0|1000] "A" Vector__XXX
+
+BO_ 2551752629 DCDC_MAIN_DCDC_FCU_1: 8 Vector__XXX
+ SG_ MStatus : 32|8@1+ (1,0) [0|15] "" Vector__XXX
+ SG_ FaultLevel : 46|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Life : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ FaultCode : 40|6@1+ (1,0) [0|63] "" Vector__XXX
+ SG_ Vin : 0|16@1+ (0.1,0) [0|1000] "V" Vector__XXX
+ SG_ Iin : 16|16@1+ (0.1,-1500) [-1500|1500] "A" Vector__XXX
+ SG_ DCDCTemp : 48|8@1+ (1,-40) [-40|200] "¡æ" Vector__XXX
+
+BO_ 2551818165 DCDC_MAIN_DCDC_FCU_2: 8 Vector__XXX
+ SG_ WorkMode : 32|4@1+ (1,0) [0|15] "" Vector__XXX
+ SG_ Vout : 0|16@1+ (0.1,0) [0|1000] "V" Vector__XXX
+ SG_ TargetVal : 40|16@1+ (0.1,0) [0|1500] "" Vector__XXX
+ SG_ Iout : 16|16@1+ (0.1,-1500) [-1500|1500] "A" Vector__XXX
+ SG_ ContrlMode : 36|4@1+ (1,0) [0|15] "" Vector__XXX
+
+BO_ 2365542823 DCDC_MAIN_FCU_DCDC_0: 8 Vector__XXX
+ SG_ Life : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ WorkMode : 40|4@1+ (1,0) [0|15] "" Vector__XXX
+ SG_ ContrlMode : 32|4@1+ (1,0) [0|15] "" Vector__XXX
+ SG_ TargetVin : 16|16@1+ (0.1,0) [0|1000] "V" Vector__XXX
+ SG_ TargetIin : 0|16@1+ (0.1,-1500) [-1500|1500] "A" Vector__XXX
+
+BO_ 832 NEO986_Msg_0: 8 Vector__XXX
+ SG_ C_H2 : 7|16@0+ (0.01,-0.2) [0|100] "Vol.-%" Vector__XXX
+ SG_ VOLUME_H2O : 23|16@0+ (0.01,-0.2) [0|100] "Vol.-%" Vector__XXX
+ SG_ PRESSURE : 39|16@0+ (1,0) [600|5000] "mbar" Vector__XXX
+ SG_ TEMPERATURE : 55|8@0+ (1,-60) [-40|125] "C" Vector__XXX
+ SG_ CRC : 63|8@0+ (1,0) [0|255] "a.u." Vector__XXX
+
+BO_ 800 NEO983A_Msg_0: 8 Vector__XXX
+ SG_ C_H2 : 7|16@0+ (0.01,-0.2) [0|10] "Vol.-%" Vector__XXX
+ SG_ VOLUME_H2O : 23|16@0+ (0.01,-0.2) [0|100] "Vol.-%" Vector__XXX
+ SG_ PRESSURE : 39|16@0+ (1,0) [600|5000] "mbar" Vector__XXX
+ SG_ TEMPERATURE : 55|8@0+ (1,-60) [-40|125] "C" Vector__XXX
+ SG_ CRC : 63|8@0+ (1,0) [0|255] "a.u." Vector__XXX
+
+BO_ 1773 Cathode_Inlet_PTRH_sens: 8 Vector__XXX
+ SG_ Press : 0|8@1+ (1,0) [0|250] "kPa" Vector__XXX
+ SG_ DewPoint : 16|8@1+ (1,-40) [-40|210] "degC" Vector__XXX
+ SG_ Temp : 40|8@1+ (1,-40) [-40|210] "degC" Vector__XXX
+ SG_ RelativeHumidity : 8|8@1+ (0.4,0) [0|100] "%" Vector__XXX
+ SG_ SpecificHumidity : 24|16@1+ (0.01,0) [0|642.55] "g/kg" Vector__XXX
+
+BO_ 2566757284 CONDUCTIVITY_MESSAGE: 8 Vector__XXX
+ SG_ SPN3521_Fluid_Proprierty : 48|4@1+ (1,0) [0|15] "" Vector__XXX
+ SG_ SPN3520_Fluid_Proprierties_FMI : 40|5@1+ (1,0) [0|31] "" Vector__XXX
+ SG_ SPN3519_Fluid_Temperature_FMI : 32|5@1+ (1,0) [0|31] "" Vector__XXX
+ SG_ SPN3518_Fluid_Conductivity : 16|16@1+ (0.01,0) [0|655.35] "uS/cm" Vector__XXX
+ SG_ SPN3515_Fluid_Temperature : 0|16@1+ (0.1,-40) [-40|6513.5] "°C" Vector__XXX
+
+BO_ 1024 FC_Status: 8 Vector__XXX
+ SG_ SM_MAIN : 24|4@1+ (1,0) [0|15] "__SM__" Vector__XXX
+ SG_ SM_SHUTDOWN : 60|4@1+ (1,0) [0|15] "__SM__" Vector__XXX
+ SG_ SM_CS : 56|4@1+ (1,0) [0|15] "__SM__" Vector__XXX
+ SG_ SM_RR : 52|4@1+ (1,0) [0|15] "__SM__" Vector__XXX
+ SG_ SM_DRAIN : 48|4@1+ (1,0) [0|15] "__SM__" Vector__XXX
+ SG_ SM_PURGE : 44|4@1+ (1,0) [0|15] "__SM__" Vector__XXX
+ SG_ SM_RI : 40|4@1+ (1,0) [0|15] "__SM__" Vector__XXX
+ SG_ SM_HU : 36|4@1+ (1,0) [0|15] "__SM__" Vector__XXX
+ SG_ SM_SIP : 32|4@1+ (1,0) [0|15] "__SM__" Vector__XXX
+ SG_ FCS_WarnCause : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FCS_FaultCause : 8|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1033 FCS_MassFlowSensors: 8 Vector__XXX
+ SG_ MFT14MassAirFlowSens_uC : 0|16@1+ (0.01,-15) [-15|480] "kg/h" Vector__XXX
+
+BO_ 1040 FCS_H2ConcentrationSensors: 8 Vector__XXX
+ SG_ H2S51StackH2LeakSens_uC : 0|16@1+ (1,0) [0|40000] "ppm" Vector__XXX
+ SG_ H2S52StackH2LeakSens_uC : 16|16@1+ (1,0) [0|40000] "ppm" Vector__XXX
+ SG_ H2S39H2LeakSensor_uC : 32|16@1+ (1,0) [0|40000] "ppm" Vector__XXX
+ SG_ N2_c : 48|16@1+ (0.01,0) [0|100] "%" Vector__XXX
+
+BO_ 1027 FCS_Warnings: 8 Vector__XXX
+ SG_ Warn_FCS_StackVoltageHigh : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ FCS_SysWarnStatus : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_StackVoltageLow : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_StackTemperatureHigh : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_StackTemperatureLow : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_CT31LevelHigh : 5|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_HT_SkinTank_OutTempHigh : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_HT_SkinTank_OutTempLow : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_StackTempInletHigh : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_StackTempInletLow : 9|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_StackCoolPressHigh : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_StackCoolPressLow : 11|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_StackCoolH2ConcHigh : 12|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_StackCoolCondHigh : 13|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_LT_SkinTank_OutTempHigh : 14|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_LT_SkinTank_OutTempLow : 15|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_BP_InTempHigh : 16|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_BP_InTempLow : 17|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_PDUOutTempHigh : 18|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_PDUOutTempLow : 19|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_CACOutTempHigh : 20|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_CACOutTempLow : 21|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_AnodeInTempHigh : 22|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_AnodeInTempLow : 23|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_AnodeInRHHigh : 24|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_AnodeInRHLow : 25|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_AnodeInPressHigh : 26|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_AnodeInPressLow : 27|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_AnodeOutTempHigh : 28|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_AnodeOutTempLow : 29|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_AnodeOutPressHigh : 30|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_AnodeOutPressLow : 31|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_CathodeCompInTempHigh : 32|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_CathodeCompInTempLow : 33|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_CathodeCACOutTempHigh : 34|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_CathodeCACOutTempLow : 35|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_CathodeInTempHigh : 36|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_CathodeInTempLow : 37|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_CathodeInRHHigh : 38|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_CathodeInRHLow : 39|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_CathodeInPressHigh : 40|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_CathodeInPressLow : 41|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_ExhaustTempHigh : 42|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_ExhaustTempLow : 43|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_ExhaustRHHigh : 44|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_ExhaustRHLow : 45|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_ExhaustPressHigh : 46|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_ExhaustPressLow : 47|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_ExhaustH2ConcHigh : 48|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_CellVoltageLow : 49|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_StackDeltaPressHigh : 50|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_Z1H2ConcHigh : 51|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_Z2H2ConcHigh : 52|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_StackTempOutletHigh : 53|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_StackTempOutletLow : 54|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_FCS_CathodeExPressHigh : 55|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 1028 FCS_Faults: 8 Vector__XXX
+ SG_ FCS_SysFaultStatus : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_StackVoltageLow : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_StackTemperatureHigh : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_StackVoltageHigh : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_StackTemperatureLow : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_CT32LevelLow : 5|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_CT31LevelLow : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_StackTempInletHigh : 9|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_StackTempInletLow : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_StackCoolH2ConcHigh : 13|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_HTSkinTank_OutTempHigh : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_HTSkinTank_OutTempLow : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_StackCoolPressHigh : 11|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_StackCoolPressLow : 12|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_StackCoolCondHigh : 14|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_CoolHeatInternalfault : 15|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_CoolHeatExternalfault : 16|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_LT_SkinTankOutTempHigh : 17|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_LT_SkinTankOutTempLow : 18|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_BP_InTempHigh : 19|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_BP_InTempLow : 20|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_PDUOutTempHigh : 21|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_PDUOutTempLow : 22|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_CACOutTempHigh : 23|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_CACOutTempLow : 24|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_CT41LevelLow : 25|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_CT42LevelLow : 26|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_AnodeInTempHigh : 27|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_AnodeInTempLow : 28|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_AnodeInRHHigh : 29|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_AnodeInRHLow : 30|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_AnodeInPressHigh : 31|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_AnodeInPressLow : 32|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_AnodeOutTempHigh : 33|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_AnodeOutTempLow : 34|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_AnodeOutPressHigh : 35|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_AnodeOutPressLow : 36|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_CathodeCompInTempHigh : 37|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_CathodeCompInTempLow : 38|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_CathodeCACOutTempHigh : 39|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_CathodeCACOutTempLow : 40|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_CathodeInTempHigh : 41|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_CathodeInTempLow : 42|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_CathodeInRHHigh : 43|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_CathodeInRHLow : 44|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_CathodeInPressHigh : 45|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_CathodeInPressLow : 46|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_ExhaustTempHigh : 47|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_ExhaustTempLow : 48|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_ExhaustRHHigh : 49|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_ExhaustRHLow : 50|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_ExhaustPressHigh : 51|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_ExhaustPressLow : 52|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_ExhaustH2ConcHigh : 53|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_CellVoltageLow : 54|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_StackDeltaPressHigh : 55|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_Z1H2ConcHigh : 56|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_Z2H2ConcHigh : 57|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_StackTempOutletHigh : 58|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_StackTempOutletLow : 59|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_FCS_CathodeExPressHigh : 60|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_DCDCMain : 61|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_DCDCComp : 62|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_INVComp : 63|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 1041 FCS_HWD_DI_Status: 8 Vector__XXX
+ SG_ LIN1_RXD_uC : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ CAN1_RXD_uC : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ V15CathodeBOValveFB_uC : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ V14CathodeBPValveFB_uC : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ V23DrainValveStatus_uC : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ V17H2PurgeValveStatus_uC : 5|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ V12BypassValveStatus_uC : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ESTOP_Switch_uC : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Start_Switch_uC : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ V13ShutoffValveStatus_uC : 9|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Ignition_Switch_uC : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Run_Stop_Switch_uC : 11|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ V42_MOTOR_ERROR_uC : 12|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ V41_MOTOR_ERROR_uC : 13|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ CAN2_RXD_uC : 14|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ V31_MOTOR_ERROR_uC : 15|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ CAN3_RXD_uC : 16|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 1042 FCS_HWD_DO_Status: 8 Vector__XXX
+ SG_ V_Switch_EN_uC : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ LIN_ENABLE_uC : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ LIN1_TXD_uC : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ CAN1_TX_uC : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ONBOARDLED : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OPEN_LOAD_SW_uC : 5|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ CPMP31PumpPWM_uC : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ V14ValveControlPWM_uC : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ WDG_Interrupt_uC : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ V12CathodeBypassValve_uC : 9|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ GroundEnable_uC : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ V23WaterDrainValve_uC : 11|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ V17CathodeDrainValve_uC : 12|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ V15ValveControlPWM_uC : 13|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ CPMP32PumpPWM_uC : 14|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ V11CompRecircValve_uC : 15|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ O5VSensorEnable_uC : 16|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ V22H2PurgeValve_uC : 17|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ VBATT_SW_EN_uC : 18|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 1043 FCS_HWD_DO_Control: 8 Vector__XXX
+ SG_ V_Switch_EN_uC : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ LIN_ENABLE_uC : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ LIN1_TXD_uC : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ CAN1_TX_uC : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ONBOARDLED : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ OPEN_LOAD_SW_uC : 5|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ CPMP31PumpPWM_uC : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ V14ValveControlPWM_uC : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ WDG_Interrupt_uC : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ V12CathodeBypassValve_uC : 9|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ GroundEnable_uC : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ V23WaterDrainValve_uC : 11|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ V17CathodeDrainValve_uC : 12|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ V15ValveControlPWM_uC : 13|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ CPMP32PumpPWM_uC : 14|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ V11CompRecircValve_uC : 15|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ O5VSensorEnable_uC : 16|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ V22H2PurgeValve_uC : 17|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ VBATT_SW_EN_uC : 18|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 1030 FCS_Temperatures_2: 8 Vector__XXX
+ SG_ TT422TempSensor_uC : 48|8@1+ (1,-40) [-40|150] "degC" Vector__XXX
+ SG_ TT33TempSensor_uC : 16|8@1+ (1,-40) [-40|150] "degC" Vector__XXX
+ SG_ TT414TempSensor_uC : 40|8@1+ (1,-40) [-40|150] "degC" Vector__XXX
+ SG_ TT49TempSensor_uC : 32|8@1+ (1,-40) [-40|150] "degC" Vector__XXX
+ SG_ TT43TempSensor_uC : 24|8@1+ (1,-40) [-40|150] "degC" Vector__XXX
+ SG_ TT32TempSensor_uC : 8|8@1+ (1,-40) [-40|150] "degC" Vector__XXX
+ SG_ TT31TempSensor_uC : 0|8@1+ (1,-40) [-40|150] "degC" Vector__XXX
+
+BO_ 1029 FCS_Temperatures_1: 8 Vector__XXX
+ SG_ PCB_Temperature_uC : 0|8@1+ (1,-40) [-40|215] "degC" Vector__XXX
+ SG_ TT15TempSensor_uC : 8|8@1+ (1,-40) [-40|215] "degC" Vector__XXX
+ SG_ TT26TempSensor_uC : 16|8@1+ (1,-40) [-40|215] "degC" Vector__XXX
+ SG_ TT16TempSensor_uC : 24|8@1+ (1,-40) [-40|215] "degC" Vector__XXX
+
+BO_ 1031 FCS_Pressures: 8 Vector__XXX
+ SG_ PT25PressureSens_uC : 0|16@1+ (0.001,0) [0|65.535] "barg" Vector__XXX
+ SG_ PT27Pressure_uC : 16|16@1+ (0.001,0) [0|65.535] "barg" Vector__XXX
+ SG_ PT17CathodeExhSens_uC : 32|16@1+ (0.001,0) [0|65.535] "barg" Vector__XXX
+ SG_ StackDeltaPress : 48|16@1+ (0.001,0) [0|65.535] "barg" Vector__XXX
+
+BO_ 1032 FCS_LevelSensors: 8 Vector__XXX
+ SG_ LSLevelSensor_uC : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ LS37LevelSensor_uC : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ LS38LevelSensor_uC : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ LS316LevelSensor_uC : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ LS47LevelSensor_uC : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ LS48LevelSensor_uC : 5|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 1360 PDU_Status: 8 Vector__XXX
+ SG_ SM_MAIN : 48|4@1+ (1,0) [0|15] "__SM__" Vector__XXX
+ SG_ SM_SIP : 52|4@1+ (1,0) [0|15] "__SM__" Vector__XXX
+ SG_ SM_RUN_IDLE : 56|4@1+ (1,0) [0|15] "__SM__" Vector__XXX
+ SG_ SM_SHUTDOWN : 60|4@1+ (1,0) [0|15] "__SM__" Vector__XXX
+ SG_ Cont_C4_State : 19|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Cont_C5_State : 20|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Cont_C1_State : 16|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Cont_C2_State : 17|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Cont_C3_State : 18|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Cont_C6_State : 21|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ KL15_Status : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ESTOP_SW_DI : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ HVIL_OK_DI : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ HVIL_EN_DO : 9|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ V5_Sensor_Disable_DO : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ V5_Switch_EN_DO : 11|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ VBATT_SW_DO : 12|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 1361 PDU_Temperatures: 8 Vector__XXX
+ SG_ CoolantTempSensor4 : 24|8@1+ (1,-40) [-40|215] "degC" Vector__XXX
+ SG_ CoolantTempSensor1 : 0|8@1+ (1,-40) [-40|215] "degC" Vector__XXX
+ SG_ CoolantTempSensor2 : 8|8@1+ (1,-40) [-40|215] "degC" Vector__XXX
+ SG_ CoolantTempSensor3 : 16|8@1+ (1,-40) [-40|215] "degC" Vector__XXX
+ SG_ Temp_PCBSensor : 32|8@1+ (1,-40) [-40|215] "degC" Vector__XXX
+
+BO_ 1376 PDU_HWD_DI_Status: 8 Vector__XXX
+ SG_ WAKE_UP_KL15_uC : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ESTOP_Switch_uC : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ HVIL_OK : 2|8@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 1377 PDU_HWD_DO_Status: 8 Vector__XXX
+ SG_ GREEN_LED : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Contactor_C3_Control_uC : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Contactor_C2_Control_uC : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Contactor_C1_Control_uC : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Contactor_C6_Control_uC : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Contactor_C5_Control_uC : 5|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Contactor_C4_Control_uC : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ DCDC_Enable_uC : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ HVIL1_Enable : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ V5_Sensor1_Disable_uC : 9|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ V5_Switch_EN_uC : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ VBATT_SW_EN_uC : 11|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 1378 PDU_HWD_DO_Control: 8 Vector__XXX
+ SG_ GREEN_LED : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Contactor_C3_Control_uC : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Contactor_C2_Control_uC : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Contactor_C1_Control_uC : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Contactor_C6_Control_uC : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Contactor_C5_Control_uC : 5|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Contactor_C4_Control_uC : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ DCDC_Enable_uC : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ HVIL1_Enable : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ V5_Sensor1_Disable_uC : 9|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ V5_Switch_EN_uC : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ VBATT_SW_EN_uC : 11|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 1366 PDU_Faults_Warnings: 8 Vector__XXX
+ SG_ PDU_SysFaultStatus : 16|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Fault_PDU_FuseF1Act : 24|1@1+ (1,0) [0|1] "__F__" Vector__XXX
+ SG_ Fault_PDU_FuseF2Act : 25|1@1+ (1,0) [0|1] "__F__" Vector__XXX
+ SG_ Fault_PDU_FuseF3Act : 26|1@1+ (1,0) [0|1] "__F__" Vector__XXX
+ SG_ Fault_PDU_ContC1Open : 27|1@1+ (1,0) [0|1] "__F__" Vector__XXX
+ SG_ Fault_PDU_ContC1Short : 28|1@1+ (1,0) [0|1] "__F__" Vector__XXX
+ SG_ Fault_PDU_ContC3Open : 29|1@1+ (1,0) [0|1] "__F__" Vector__XXX
+ SG_ Fault_PDU_ContC3Short : 30|1@1+ (1,0) [0|1] "__F__" Vector__XXX
+ SG_ Fault_PDU_ContC4Open : 31|1@1+ (1,0) [0|1] "__F__" Vector__XXX
+ SG_ Fault_PDU_PrechgFlt : 33|1@1+ (1,0) [0|1] "__F__" Vector__XXX
+ SG_ Fault_PDU_PcbOverTemp : 34|1@1+ (1,0) [0|1] "__F__" Vector__XXX
+ SG_ Fault_PDU_HVILOpen : 35|1@1+ (1,0) [0|1] "__F__" Vector__XXX
+ SG_ Fault_PDU_HVILShort : 36|1@1+ (1,0) [0|1] "__F__" Vector__XXX
+ SG_ Fault_PDU_12VVoltLow : 37|1@1+ (1,0) [0|1] "__F__" Vector__XXX
+ SG_ PDU_SysWarnStatus : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Warn_PDU_PcbTempHigh : 9|1@1+ (1,0) [0|1] "__W__" Vector__XXX
+ SG_ Warn_PDU_12VVoltLow : 8|1@1+ (1,0) [0|1] "__W__" Vector__XXX
+ SG_ PDU_FaultCause : 48|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Fault_PDU_ColdplateOverTemp : 38|1@1+ (1,0) [0|1] "__F__" Vector__XXX
+ SG_ Fault_PDU_Busbar1TempHigh : 39|1@1+ (1,0) [0|1] "__F__" Vector__XXX
+ SG_ Warn_PDU_ColdplateTempHigh : 10|1@1+ (1,0) [0|1] "__W__" Vector__XXX
+ SG_ Warn_PDU_Busbar2TempHigh : 12|1@1+ (1,0) [0|1] "__W__" Vector__XXX
+ SG_ Fault_PDU_IsolationImbalance : 42|1@1+ (1,0) [0|1] "__F__" Vector__XXX
+ SG_ PDU_WarnCause : 56|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Fault_PDU_ContC4Short : 32|1@1+ (1,0) [0|1] "__F__" Vector__XXX
+ SG_ Warn_PDU_Busbar3TempHigh : 13|1@1+ (1,0) [0|1] "__W__" Vector__XXX
+ SG_ Warn_PDU_Busbar1TempHigh : 11|1@1+ (1,0) [0|1] "__W__" Vector__XXX
+ SG_ Fault_PDU_Busbar3TempHigh : 41|1@1+ (1,0) [0|1] "__F__" Vector__XXX
+ SG_ Fault_PDU_Busbar2TempHigh : 40|1@1+ (1,0) [0|1] "__F__" Vector__XXX
+
+BO_ 1280 FCC2PDU_Control: 8 Vector__XXX
+ SG_ PDU_SIP : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ PDU_RI : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ PDU_SHUTDOWN : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ CS_OFF : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 1362 PDU_Voltage_1: 8 Vector__XXX
+ SG_ Voltage_VB2 : 0|16@1+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ Voltage_VB3 : 16|16@1+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ Voltage_VB4 : 32|16@1+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ Voltage_VB5 : 48|16@1+ (0.001,0) [0|65.535] "V" Vector__XXX
+
+BO_ 1365 PDU_IsoRes: 8 Vector__XXX
+ SG_ GFD_NEG_AI_V_UC : 0|16@1+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ GFD_POS_AI_V_UC : 16|16@1+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ Voltage_Offset_0V001 : 32|16@1+ (0.001,0) [0|65.535] "V" Vector__XXX
+
+BO_ 1363 PDU_Voltage_2: 8 Vector__XXX
+ SG_ Voltage_VB6 : 0|16@1+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ Voltage_VB1 : 16|16@1+ (0.01,0) [0|655.35] "V" Vector__XXX
+ SG_ Voltage_VA1 : 32|16@1+ (0.01,0) [0|655.35] "V" Vector__XXX
+ SG_ Voltage_VA2 : 48|16@1+ (0.01,0) [0|655.35] "V" Vector__XXX
+
+BO_ 1364 PDU_Voltage_3: 8 Vector__XXX
+ SG_ Voltage_VA3 : 0|16@1+ (0.01,0) [0|655.35] "V" Vector__XXX
+ SG_ Voltage_VA4 : 16|16@1+ (0.01,0) [0|655.35] "V" Vector__XXX
+ SG_ Current_I1 : 48|16@1+ (0.01,0) [0|655.35] "A" Vector__XXX
+
+BO_ 1379 PDU_HWD_AI: 8 Vector__XXX
+ SG_ VoltageSense1_uC : 0|16@1+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ POS_IN6_AI : 16|16@1+ (0.01,0) [0|655.35] "V" Vector__XXX
+ SG_ POS_IN7_AI : 32|16@1+ (0.01,0) [0|655.35] "V" Vector__XXX
+
+BO_ 1380 PDU_HWD_ADC1: 8 Vector__XXX
+ SG_ VREF_2_0V : 0|16@1+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ V3V3_Sensor1_FB : 16|16@1+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ V5_POWER_FB : 32|16@1+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ V3NV3_AI_V_UC : 48|16@1+ (0.001,0) [0|65.535] "V" Vector__XXX
+
+BO_ 1381 PDU_HWD_ADC2: 8 Vector__XXX
+ SG_ HVIL1_Source_Feedback : 0|16@1+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ HVIL1_Return_Feedback : 16|16@1+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ V12_SW_MONITOR_uC : 32|16@1+ (0.001,0) [0|65.535] "V" Vector__XXX
+ SG_ VBATT_MONITOR_uC : 48|16@1+ (0.001,0) [0|65.535] "V" Vector__XXX
+
+BO_ 1281 PDU2FCC_Status: 8 Vector__XXX
+ SG_ PDU_SIP_COMPLETE : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ PDU_RI_COMPLETE : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ PDU_SHUTDOWN_COMPLETE : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 1025 FC_Voltages: 8 Vector__XXX
+ SG_ AvgStackVolt : 0|16@1+ (0.00015259,0) [0|0] "" Vector__XXX
+ SG_ MinCellVolt : 16|16@1+ (0.00015259,0) [0|0] "" Vector__XXX
+
+
+CM_ SG_ 1 CJTemp "Cold junction temperature";
+CM_ SG_ 2365543079 VinMax "max input(low volt side) voltage";
+CM_ SG_ 2365543079 IinMax "max input(low volt side) current";
+CM_ SG_ 2551818165 TargetVal "voltmode£ºoffset = 0 curmode£ºoffset = -1500";
+CM_ SG_ 2365542823 TargetVin "The input voltage(Low side) reference value";
+CM_ BO_ 832 "H2C24 - Anode Inlet";
+CM_ BO_ 800 "H2C25 - Exhaust";
+CM_ SG_ 1027 Warn_FCS_StackCoolPressHigh "Place holder - has been deleted";
+CM_ SG_ 1027 Warn_FCS_StackCoolPressLow "Place holder - has been deleted";
+CM_ SG_ 1028 Fault_FCS_StackCoolPressHigh "Place holder - has been deleted";
+CM_ SG_ 1028 Fault_FCS_StackCoolPressLow "Place holder - has been deleted";
+CM_ SG_ 1028 Fault_FCS_CoolHeatInternalfault "Place holder";
+CM_ SG_ 1028 Fault_FCS_CoolHeatExternalfault "Place holder";
+CM_ SG_ 1028 Fault_FCS_CT41LevelLow "";
+CM_ SG_ 1028 Fault_FCS_CT42LevelLow "";
+CM_ SG_ 1029 PCB_Temperature_uC "";
+CM_ SG_ 1029 TT15TempSensor_uC "";
+CM_ SG_ 1029 TT26TempSensor_uC "";
+CM_ SG_ 1029 TT16TempSensor_uC "";
+CM_ SG_ 1031 PT17CathodeExhSens_uC "HEX";
+CM_ SG_ 1032 LSLevelSensor_uC "LevelSensor_29";
+CM_ SG_ 1361 CoolantTempSensor4 "Cold Plate temp sensor";
+CM_ SG_ 1361 CoolantTempSensor1 "MaindDCDC-F2-F3 busbar temp";
+CM_ SG_ 1361 CoolantTempSensor2 "Diode-F1 busbar temp";
+CM_ SG_ 1361 CoolantTempSensor3 "FC-Current sensor busbar temp ";
+CM_ SG_ 1366 Fault_PDU_ColdplateOverTemp "
+Cold Plate temp sensor ";
+CM_ SG_ 1366 Fault_PDU_Busbar1TempHigh "
+MaindDCDC-F2-F3 busbar temp ";
+CM_ SG_ 1366 Warn_PDU_ColdplateTempHigh "
+Cold Plate temp sensor ";
+CM_ SG_ 1366 Warn_PDU_Busbar2TempHigh "
+Diode-F1 busbar temp ";
+CM_ SG_ 1366 Warn_PDU_Busbar3TempHigh "
+FC-Current sensor busbar temp ";
+CM_ SG_ 1366 Warn_PDU_Busbar1TempHigh "
+MaindDCDC-F2-F3 busbar temp ";
+CM_ SG_ 1366 Fault_PDU_Busbar3TempHigh "
+FC-Current sensor busbar temp ";
+CM_ SG_ 1366 Fault_PDU_Busbar2TempHigh "
+Diode-F1 busbar temp ";
+CM_ SG_ 1364 Current_I1 "Stack current measurement";
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 65535;
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+VAL_ 1 TT18_Status 0 "OK" 1 "Err1" 2 "Err2" 3 "Err3" ;
+VAL_ 1 TT41_Status 0 "OK" 1 "Err1" 2 "Err2" 3 "Err3" ;
+VAL_ 1 TT42_Status 0 "OK" 1 "Err1" 2 "Err2" 3 "Err3" ;
+VAL_ 1 TT410_Status 0 "OK" 1 "Err1" 2 "Err2" 3 "Err3" ;
+VAL_ 2 TL_Status 0 "OK" 1 "Err1" 2 "Err2" 3 "Err3" ;
+VAL_ 2 TT411_Status 0 "OK" 1 "Err1" 2 "Err2" 3 "Err3" ;
+VAL_ 2 TT412_Status 0 "OK" 1 "Err1" 2 "Err2" 3 "Err3" ;
+VAL_ 2 TT413_Status 0 "OK" 1 "Err1" 2 "Err2" 3 "Err3" ;
+VAL_ 259 PS35_Press_sw_act 0 "Unknown" 1 "High" 2 "Low" ;
+VAL_ 515 PS46_Press_sw_act 0 "Unknown" 1 "High" 2 "Low" ;
+VAL_ 771 PS45_Press_sw_act 0 "Unknown" 1 "High" 2 "Low" ;
+VAL_ 771 PS36_Press_sw_act 0 "Unknown" 1 "High" 2 "Low" ;
+VAL_ 2551752612 MStatus 13 "Discharge state" 12 "Fault status  in normal state" 6 "Fault status in waitting state" 4 "Waitting state" 2 "Normal state" ;
+VAL_ 2551752612 FaultLevel 2 "Level II  fault" 1 "Level I  fault" 0 "No fault" ;
+VAL_ 2551752612 FaultCode 28 "Input contactor error" 23 "HwWDO" 22 "hardware output voltage high" 21 "hardware input voltage high" 20 "igbt error" 19 "hardware current high" 18 "HwAdIpv error" 17 "eeprom error" 16 "output voltage unbalance" 15 "Inductor current high" 30 "active discharge error" 29 "pre-charge error" 13 "de-rate warning" 12 "current sample lost" 4 "output voltage low" 1 "input voltage low" 11 "temperature sample lost" 10 "auxiliary power error" 9 "hardware report error" 8 "CPU temperature high" 7 "communication error" 6 "IGBT temperature high" 5 "output voltage high" 3 "output current high" 2 "input voltage high" 0 "input current high" ;
+VAL_ 2551818148 WorkMode 10 "Low Volt On" 15 "Reset Fault" 12 "active discharge" 11 "On" 5 "Off" ;
+VAL_ 2551818148 ContrlMode 3 "Input Voltage Mode" 2 "Output Current Mode" 1 "Output Voltage Mode" 0 "Input Current Mode" ;
+VAL_ 2365522343 WorkMode 10 "Low Volt On" 15 "Reset Fault" 12 "Discharge" 11 "On" 5 "Off" ;
+VAL_ 2365522343 ContrlMode 3 "Input Voltage Mode" 2 "OutPut Current  Mode" 1 "OutPut Voltage Mode" 0 "Input Current Mode" ;
+VAL_ 2551752629 MStatus 12 "Fault status  in normal state" 6 "Fault status in waitting state" 4 "Waitting state" 2 "Normal state" ;
+VAL_ 2551752629 FaultLevel 2 "Level II  fault" 1 "Level I  fault" 0 "No fault" ;
+VAL_ 2551752629 FaultCode 29 "pre-charge error" 28 "Input contactor error" 23 "other hardware error" 22 "hardware output voltage high" 21 "hardware input voltage high" 20 "power module  error" 19 "hardware current high" 18 "AD sample  error" 17 "eeprom W&R error" 4 "output voltage low" 1 "input voltage low" 10 "other error " 9 "hardware error" 8 "power module temperature high" 7 "communication error" 6 "ambient temperature high" 5 "output voltage high" 3 "output current high" 2 "input voltage high" 0 "input current high" ;
+VAL_ 2551818165 WorkMode 11 "On" 5 "Off" ;
+VAL_ 2551818165 ContrlMode 1 "Voltage Mode" 0 "Current Mode" ;
+VAL_ 2365542823 WorkMode 15 "Reset Fault" 11 "On" 5 "Off" ;
+VAL_ 2365542823 ContrlMode 1 "Voltage Mode" 0 "Current Mode" ;
+VAL_ 1024 SM_MAIN 0 "OFF" 1 "FCS_IDLE" 2 "FCS_SIP" 3 "FCS_RI" 4 "FCS_RR" 5 "FCS_SHUTDOWN" 6 "FCS_OFF" 7 "FCS_DERATE" 8 "FCS_FAULT" 9 "FCS_ESTOP" ;
+VAL_ 1024 SM_SHUTDOWN 0 "OFF" 1 "FCS_SHUTDOWN_IDLE" 2 "FCS_SHUTDOWN_HV_DERATE" 3 "FCS_SHUTDOWN_CATHODE_BYPASS" 4 "FCS_SHUTDOWN_HV_OFF" 5 "FCS_SHUTDOWN_DCDCs_OFF" 6 "FCS_PDU_SHUTDOWN" 7 "FCS_SHUTDOWN_COMPLETE" ;
+VAL_ 1024 SM_CS 0 "OFF" 1 "FCS_CS_IDLE" 2 "FCS_CS_ENABLE" 3 "FCS_CS_DISABLE" 4 "FCS_CS_COOLDOWN" 5 "FCS_CS_OFF" 6 "FCS_CS_FAULT" ;
+VAL_ 1024 SM_RR 0 "OFF" 1 "FCS_RR_IDLE" 2 "FCS_RR_ENABLE" 3 "FCS_RR_DISABLE" 4 "FCS_RR_FAULT" ;
+VAL_ 1024 SM_DRAIN 0 "OFF" 1 "FCS_DRAIN_IDLE" 2 "FCS_DRAIN_WAIT_1" 3 "FCS_DRAIN_VLV_OPEN" 4 "FCS_DRAIN_CPMP_ON" 5 "FCS_DRAIN_WAIT_2" 6 "FCS_DRAIN_OFF" ;
+VAL_ 1024 SM_PURGE 0 "OFF" 1 "FCS_PURGE_IDLE" 2 "FCS_PURGE_SU" 3 "FCS_PURGE_WAIT" 4 "FCS_PURGE_OFF" 5 "FCS_PURGE_RH%" 6 "FCS_PURGE_N2" 7 "FCS_PURGE_PRESS" ;
+VAL_ 1024 SM_RI 0 "OFF" 1 "FCS_RI_IDLE" 2 "FCS_RI_ENABLE" 3 "FCS_RI_MainDCDC_ENABLE" 4 "FCS_RI_MainDCDC_Imin" 5 "FCS_PDU_RI" 6 "FCS_RI_COMPLETE" 7 "FCS_RI_FAULT" ;
+VAL_ 1024 SM_HU 0 "OFF" 1 "FCS_HU_IDLE" 2 "FCS_HU_ENABLE" 3 "FCS_HU_OFF" 4 "FCS_HU_FAULT" ;
+VAL_ 1024 SM_SIP 0 "OFF" 1 "FCS_SIP_IDLE" 2 "FCS_PDU_SIP_ENABLE" 3 "FCS_SIP_CompDCDC_ENABLE" 4 "FCS_HU" 5 "FCS_CS_ENABLE" 6 "FCS_SIP_Cathode_BYPASS_ENABLE" 7 "FCS_SIP_MIN_OP_STATE_ENABLE" 8 "FCS_SIP_MIN_OP_STATE" 9 "FCS_PURGE_DRAIN_ENABLE" 10 "FCS_SIP_COMPLETE" 11 "FCS_SIP_FAULT" ;
+VAL_ 1024 FCS_WarnCause 0 "No Warning" 1 "Warn_FCS_StackVoltageHigh" 2 "Warn_FCS_StackVoltageLow" 3 "Warn_FCS_StackTemperatureHigh" 4 "Warn_FCS_StackTemperatureLow" 5 "Warn_FCS_CT31LevelHigh" 6 "Warn_FCS_HT_SkinTank_OutTempHigh" 7 "Warn_FCS_HT_SkinTank_OutTempLow" 8 "Warn_FCS_StackTempInletHigh" 9 "Warn_FCS_StackTempInletLow" 10 "Warn_FCS_StackCoolPressHigh" 11 "Warn_FCS_StackCoolPressLow" 12 "Warn_FCS_StackCoolH2ConcHigh" 13 "Warn_FCS_StackCoolCondHigh" 14 "Warn_FCS_LT_SkinTank_OutTempHigh" 15 "Warn_FCS_LT_SkinTank_OutTempLow" 16 "Warn_FCS_BP_InTempHigh" 17 "Warn_FCS_BP_InTempLow" 18 "Warn_FCS_PDUOutTempHigh" 19 "Warn_FCS_PDUOutTempLow" 20 "Warn_FCS_CACOutTempHigh" 21 "Warn_FCS_CACOutTempLow" 22 "Warn_FCS_AnodeInTempHigh" 23 "Warn_FCS_AnodeInTempLow" 24 "Warn_FCS_AnodeInRHHigh" 25 "Warn_FCS_AnodeInRHLow" 26 "Warn_FCS_AnodeInPressHigh" 27 "Warn_FCS_AnodeInPressLow" 28 "Warn_FCS_AnodeOutTempHigh" 29 "Warn_FCS_AnodeOutTempLow" 30 "Warn_FCS_AnodeOutPressHigh" 31 "Warn_FCS_AnodeOutPressLow" 32 "Warn_FCS_CathodeCompInTempHigh" 33 "Warn_FCS_CathodeCompInTempLow" 34 "Warn_FCS_CathodeCACOutTempHigh" 35 "Warn_FCS_CathodeCACOutTempLow" 36 "Warn_FCS_CathodeInTempHigh" 37 "Warn_FCS_CathodeInTempLow" 38 "Warn_FCS_CathodeInRHHigh" 39 "Warn_FCS_CathodeInRHLow" 40 "Warn_FCS_CathodeInPressHigh" 41 "Warn_FCS_CathodeInPressLow" 42 "Warn_FCS_ExhaustTempHigh" 43 "Warn_FCS_ExhaustTempLow" 44 "Warn_FCS_ExhaustRHHigh" 45 "Warn_FCS_ExhaustRHLow" 46 "Warn_FCS_ExhaustPressHigh" 47 "Warn_FCS_ExhaustPressLow" 48 "Warn_FCS_ExhaustH2ConcHigh" 49 "Warn_FCS_CellVoltageLow" 50 "Warn_FCS_StackDeltaPressHigh" 51 "Warn_FCS_Z1H2ConcHigh" 52 "Warn_FCS_Z2H2ConcHigh" 53 "Warn_FCS_StackTempOutletHigh" 54 "Warn_FCS_StackTempOutletLow" 55 "Warn_FCS_CathodeExPressHigh" ;
+VAL_ 1024 FCS_FaultCause 0 "No Fault" 1 "Fault_FCS_StackVoltageHigh" 2 "Fault_FCS_StackVoltageLow" 3 "Fault_FCS_StackTemperatureHigh" 4 "Fault_FCS_StackTemperatureLow" 5 "Fault_FCS_CT32LevelLow" 6 "Fault_FCS_CT31LevelLow" 7 "Fault_FCS_HTSkinTank_OutTempHigh" 8 "Fault_FCS_HTSkinTank_OutTempLow" 9 "Fault_FCS_StackTempInletHigh" 10 "Fault_FCS_StackTempInletLow" 11 "Fault_FCS_StackCoolPressHigh" 12 "Fault_FCS_StackCoolPressLow" 13 "Fault_FCS_StackCoolH2ConcHigh" 14 "Fault_FCS_StackCoolCondHigh" 15 "Fault_FCS_CoolHeatInternalfault" 16 "Fault_FCS_CoolHeatExternalfault" 17 "Fault_FCS_LT_SkinTankOutTempHigh" 18 "Fault_FCS_LT_SkinTankOutTempLow" 19 "Fault_FCS_BP_InTempHigh" 20 "Fault_FCS_BP_InTempLow" 21 "Fault_FCS_PDUOutTempHigh" 22 "Fault_FCS_PDUOutTempLow" 23 "Fault_FCS_CACOutTempHigh" 24 "Fault_FCS_CACOutTempLow" 25 "Fault_FCS_CT41LevelLow" 26 "Fault_FCS_CT42LevelLow" 27 "Fault_FCS_AnodeInTempHigh" 28 "Fault_FCS_AnodeInTempLow" 29 "Fault_FCS_AnodeInRHHigh" 30 "Fault_FCS_AnodeInRHLow" 31 "Fault_FCS_AnodeInPressHigh" 32 "Fault_FCS_AnodeInPressLow" 33 "Fault_FCS_AnodeOutTempHigh" 34 "Fault_FCS_AnodeOutTempLow" 35 "Fault_FCS_AnodeOutPressHigh" 36 "Fault_FCS_AnodeOutPressLow" 37 "Fault_FCS_CathodeCompInTempHigh" 38 "Fault_FCS_CathodeCompInTempLow" 39 "Fault_FCS_CathodeCACOutTempHigh" 40 "Fault_FCS_CathodeCACOutTempLow" 41 "Fault_FCS_CathodeInTempHigh" 42 "Fault_FCS_CathodeInTempLow" 43 "Fault_FCS_CathodeInRHHigh" 44 "Fault_FCS_CathodeInRHLow" 45 "Fault_FCS_CathodeInPressHigh" 46 "Fault_FCS_CathodeInPressLow" 47 "Fault_FCS_ExhaustTempHigh" 48 "Fault_FCS_ExhaustTempLow" 49 "Fault_FCS_ExhaustRHHigh" 50 "Fault_FCS_ExhaustRHLow" 51 "Fault_FCS_ExhaustPressHigh" 52 "Fault_FCS_ExhaustPressLow" 53 "Fault_FCS_ExhaustH2ConcHigh" 54 "Fault_FCS_CellVoltageLow" 55 "Fault_FCS_StackDeltaPressHigh" 56 "Fault_FCS_Z1H2ConcHigh" 57 "Fault_FCS_Z2H2ConcHigh" 58 "Fault_FCS_StackTempOutletHigh" 59 "Fault_FCS_StackTempOutletLow" 60 "Fault_FCS_CathodeExPressHigh" 61 "Fault_DCDCMain" 62 "Fault_DCDCComp" 64 "Fault_INVComp" ;
+VAL_ 1027 FCS_SysWarnStatus 0 "FALSE" 1 "TRUE" ;
+VAL_ 1028 FCS_SysFaultStatus 0 "FALSE" 1 "TRUE" ;
+VAL_ 1360 SM_MAIN 0 "OFF" 1 "PDU_IDLE" 2 "PDU_SIP" 3 "PDU_RI" 4 "PDU_SHUTDOWN" 5 "PDU_OFF" 6 "PDU_FAULT" 7 "PDU_ESTOP" ;
+VAL_ 1360 SM_SIP 0 "OFF" 1 "PDU_SIP_IDLE" 2 "PDU_SIP_HVIL_CHCK13" 3 "PDU_SIP_HVIL_CHCK23" 4 "PDU_SIP_HVIL_CHCK33" 5 "PDU_SIP_CLOSE_C6" 6 "PDU_SIP_CLOSE_C5" 7 "PDU_SIP_CLOSE_C5_CHCK" 8 "PDU_SIP_CLOSE_C4" 9 "PDU_SIP_COMPLETE" 10 "PDU_SIP_FAULT" ;
+VAL_ 1360 SM_RUN_IDLE 0 "OFF" 1 "PDU_RI_IDLE" 2 "PDU_RI_IMD_CHCK" 3 "PDU_RI_OCV_CHCK" 4 "PDU_RI_CLOSE_C2" 5 "PDU_RI_CLOSE_C3" 6 "PDU_RI_COMPLETE" 7 "PDU_RI_FAULT" ;
+VAL_ 1360 SM_SHUTDOWN 0 "OFF" 1 "PDU_SHTDWN_IDLE" 2 "PDU_SHTDWN_OPEN_C2" 3 "PDU_SHTDWN_DUMP_LOAD_ON" 4 "PDU_SHTDWN_CUMP_LOAD_OFF" 5 "PDU_SHTDWN_OPEN_C3" 6 "PDU_SHTDWN_OPEN_C4" 7 "PDU_SHTDWN_OPEN_C6" 8 "PDU_SHTDWN_COMPLETE" ;
+VAL_ 1360 Cont_C4_State 0 "OPEN" 1 "CLOSED" ;
+VAL_ 1360 Cont_C5_State 0 "OPEN" 1 "CLOSED" ;
+VAL_ 1360 Cont_C1_State 0 "OPEN" 1 "CLOSE" ;
+VAL_ 1360 Cont_C2_State 0 "OPEN" 1 "CLOSED" ;
+VAL_ 1360 Cont_C3_State 0 "OPEN" 1 "CLOSED" ;
+VAL_ 1360 Cont_C6_State 0 "OPEN" 1 "CLOSED" ;
+VAL_ 1366 PDU_FaultCause 0 "PDU F1 FUSE ACT" 1 "PDU F2 FUSE ACT" 2 "PDU F3 FUSE ACT" 3 "PDU C1 CONT OPEN" 4 "PDU C1 CONT SHORT" 5 "PDU C3 CONT OPEN" 6 "PDU C3 CONT SHORT" 7 "PDU C4 CONT OPEN" 8 "PDU PRECHG FAULT" 9 "PDU PCB OVER TEMP" 10 "PDU HVIL OPEN" 11 "PDU HVIL SHORT" 12 "PDU 12V VOLT LOW" 13 "COLDPLATE OVER TEMP" 14 "BUSBAR1 OVER TEMP" 15 "BUSBAR2 OVER TEMP" 16 "BUSBAR3 OVER TEMP" ;
+VAL_ 1366 PDU_WarnCause 0 "PCB OVER TEMP" 1 "12V LOW VOLT" 2 "ISOLATION IMBALANCE" 3 "COLDPLATE OVER TEMP" 4 "BUSBAR1 OVER TEMP" 5 "BUSBAR2 OVER TEMP" 6 "BUSBAR3 OVER TEMP" ;
